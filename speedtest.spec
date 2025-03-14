@@ -17,7 +17,8 @@ BuildRequires:  intltool
 BuildRequires:  appstream-util
 BuildRequires:  meson >= 0.62.0
 BuildRequires:  pkgconfig(python3)
-
+BuildRequires:  python-gobject3
+BuildRequires:  python-gi
 BuildRequires:  python3dist(setuptools)
 BuildRequires:  python3dist(aiohttp)
 
