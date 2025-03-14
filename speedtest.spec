@@ -10,7 +10,7 @@ Source0:        https://github.com/Ketok4321/speedtest/archive/refs/tags/v%{vers
 
 BuildArch:      noarch
 
-BuildRequires:  blueprint-compiler >= 0.10.0
+BuildRequires:  pkgconfig(blueprint-compiler)
 BuildRequires:  desktop-file-utils
 BuildRequires:  git-core
 BuildRequires:  intltool
